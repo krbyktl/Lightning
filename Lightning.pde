@@ -5,8 +5,8 @@ int endY = 150;
 void setup()
 {
   size(300,300);
-  background(0, 51, 102);
-  strokeWeight(4);
+  background(0, 0, 0);
+  strokeWeight(3);
 }
 void draw()
 {
@@ -19,9 +19,14 @@ while(endX <= 300)
 	startX = endX;
 	startY = endY;
 	}
+fill(87);
+noStroke();	
+rect(0, 0, 10, 300);
+rect(290, 0, 10, 300);
 }
 void mousePressed()
 {
+  background(0, 0, 0);
 	startX = 0;
 	startY = 150;
 	endX = 0;
