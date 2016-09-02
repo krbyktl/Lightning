@@ -21,8 +21,8 @@ while(endX <= 300)
 	}
 fill(87);
 noStroke();	
-rect(0, 0, 10, 300);
-rect(290, 0, 10, 300);
+rect(0, 0, 20, 300);
+rect(280, 0, 20, 300);
 }
 void mousePressed()
 {
